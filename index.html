@@ -13,16 +13,20 @@
             <div class="jumbotron">
             <h1>AKAN NAME GENERATOR</h1>
             <h6><em>from the ghanaian culture</em></h6>
+           
             </div>
+            <p>Frequently in Ghana, children are given their first name as a
+                'day name' which corresponds to the day in the week they were born.
+                Here is a chance for you to not only find out the day of the week
+                you were born, but also your akan name if you would have been born
+                in ghana.<em>fill out the form below and click submit</em></p>
         <div class="card">
         <div class="row">
 
             <div class="col-md-6">
                 <form action="index.html" id="form" method="POST">
-                    <label>Enter the century of birth:</label>
-                    <input type="number" id="century" placeholder="first two numbers of birth year">
-                    <label>Enter the last two digits of year of birth:</label>
-                    <input type="number" id="year" placeholder="eg. 96">
+                    <label>Enter year of birth:</label>
+                    <input type="number" id="year" placeholder="eg. 1996">
                     <label>Enter month of birth:</label>
                     <input type="number" id="month" placeholder="eg. 09">
                     <label>Enter day of birth:</label>
@@ -41,14 +45,14 @@
                     <option value="1">Male</option>
                     <option value="2">Female</option>
                 </select>
-                <br><br><input type="button" value="Generate Akan Name" onclick="generateName();">
-                
-           
-               <input type="textarea" id="result" class="result">
+                <br><input type="button" value="submit" onclick="generateName();">
+                <br><br><input type="textarea" id="result" class="result">
             
             </div>
             </div>
+
             </div>
+            <footer>copyright 2020</footer>
 
         </div>
     </body>

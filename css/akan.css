@@ -6,12 +6,13 @@ body
 .jumbotron 
     {
         background-image: url(../images/ghana2.jpg);
+        font-weight: bold;
         
     }
 .result
     {   
         background-color: darkseagreen;
-        width: 20em;
+        width: 23em;
         height: 5em;
         color: brown;
         margin-left: -4em;
@@ -20,4 +21,15 @@ body
     {
         background-color: yellow;
         color: green;
+    }
+.container p    
+    {   
+        background-color: red;
+        font-weight: bold;
+        color:white;
+        border-style: solid;
+        border-width: 1px;
+        border-color: green;
+        padding: 1em;
+        border-radius: 3px;
     }
