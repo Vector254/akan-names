@@ -12,15 +12,16 @@ body
 .result
     {   
         background-color: darkseagreen;
-        width: 23em;
+        width: 24em;
         height: 5em;
         color: brown;
-        margin-left: -4em;
+        margin-left: -5em;
     }
 .card 
     {
         background-color: yellow;
         color: green;
+        padding:2em;
     }
 .container p    
     {   

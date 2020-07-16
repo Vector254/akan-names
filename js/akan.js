@@ -1,3 +1,26 @@
+function validate (){
+    var date=new Date();
+    var today=date.getFullYear();
+    var year=parseInt(document.getElementById("year").value);
+    var month=parseInt(document.getElementById("month").value);
+    var day=parseInt(document.getElementById("day").value);
+    if(year="" || year>today ||year<1900)
+        {
+            alert("please enter a valid year of birth!");
+            return false;
+        }
+    if(month="" || month>12 ||month<1)
+        {
+            alert("please enter a valid month");
+            return false;
+        }
+    if(day="" || day<1 || day>31)
+        {
+            alert("please enter a valid day");
+            return false;
+        }
+    }
+
 function generateName(){
 var CC=parseInt( document.getElementById("year").value.slice(0,2));
 var YY=parseInt(document.getElementById("year").value.slice(2,4));
@@ -71,3 +94,4 @@ if (gender=="2"){
         }
     }
 }
+
