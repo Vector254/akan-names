@@ -1,5 +1,23 @@
+body 
+    {
+        background-image: url(../images/ghana.jpg);
+
+    }
 .jumbotron 
     {
         background-image: url(../images/ghana2.jpg);
         
+    }
+.result
+    {   
+        background-color: darkseagreen;
+        width: 20em;
+        height: 5em;
+        color: brown;
+        margin-left: -4em;
+    }
+.card 
+    {
+        background-color: yellow;
+        color: green;
     }
