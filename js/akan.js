@@ -14,6 +14,17 @@ function validate (){
             alert("please enter a valid month");
             return false;
         }
+        
+    if (month=("4"||"6"||"9"||"11") && day>30)
+        {
+            alert("This month has 30 days!");
+            return false;
+        }
+    if (month="2"&& day>28)
+        {
+            alert("This month in that year had 28 days!")
+            return false;
+        }
     if(day="" || day<1 || day>31)
         {
             alert("please enter a valid day");
@@ -94,4 +105,7 @@ if (gender=="2"){
         }
     }
 }
-
+function clearData()
+    {
+        document.getElementById("form").reset();
+    }
