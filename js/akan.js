@@ -109,3 +109,8 @@ function clearData()
     {
         document.getElementById("form").reset();
     }
+
+function clearOutput()
+    {
+        document.getElementById("result").reset();
+    }
