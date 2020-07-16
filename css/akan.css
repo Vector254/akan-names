@@ -33,4 +33,5 @@ body
         border-color: green;
         padding: 1em;
         border-radius: 3px;
+        text-indent: 1em;
     }
