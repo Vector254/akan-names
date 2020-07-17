@@ -1,4 +1,4 @@
-/*function validate (){
+function validate (){
     var date=new Date();
     var today=date.getFullYear();//get the current year to use it later for validation
     var year=parseInt(document.getElementById("year").value);//get relevant input and convert to interger
@@ -20,9 +20,9 @@
             alert("This month has 30 days!");
             return false;
         }
-    else if (month="2"&& day>28)//validate february does not exceed 28
+    else if (month="2"&& day>29)//validate february does not exceed 28
         {
-            alert("This month in that year had 28 days!")
+            alert("February does not exceed 29 days!")
             return false;
         }
     else if(day="" || day<1 || day>31)
@@ -30,11 +30,14 @@
             alert("please enter a valid day");
             return false;
         }
-    else {return false;}
+    else {return true;}
     
-    }*/
+    }
 
 function generateName(){
+    validate();
+    
+
 var CC=parseInt( document.getElementById("year").value.slice(0,2));//declare variables and convert them to integers
 var YY=parseInt(document.getElementById("year").value.slice(2,4));
 var MM=parseInt(document.getElementById("month").value);
