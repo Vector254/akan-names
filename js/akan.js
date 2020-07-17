@@ -1,4 +1,4 @@
-function validate (){
+/*function validate (){
     var date=new Date();
     var today=date.getFullYear();//get the current year to use it later for validation
     var year=parseInt(document.getElementById("year").value);//get relevant input and convert to interger
@@ -30,9 +30,9 @@ function validate (){
             alert("please enter a valid day");
             return false;
         }
-    else {return true;}
+    else {return false;}
     
-    }
+    }*/
 
 function generateName(){
 var CC=parseInt( document.getElementById("year").value.slice(0,2));//declare variables and convert them to integers

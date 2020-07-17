@@ -12,11 +12,12 @@ body
 .result
     {   
         background-color: darkseagreen;
-        width: 24em;
+        width: 26em;
         height: 5em;
         color: brown;
         font-weight: bold;
-        margin-left: -5em;
+        margin-left: -2em;
+        font-family: monospace;
     }
 .card 
     {
