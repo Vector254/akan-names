@@ -2,10 +2,14 @@
 #### By 
 **Victor Nduati**
 ## Description
-    This is a web application build using HTML5 and javascript, styling done with bootstrap and css. This web app is based on ghanian naming tradition, where children are named according to the day of the week they are born. It takes user's birthday, calculates the day of the week they were born, matches it to the relevant Akan name, then displays the day in text form and the matching Akan name.
+
+This is a web application build using HTML5 and javascript, styling done with bootstrap and css. This web app is based on ghanian naming tradition, where children are named according to the day of the week they are born. It takes user's birthday, calculates the day of the week they were born, matches it to the relevant Akan name, then displays the day in text form and the matching Akan name.
 
 
 ## Setup/Installation Requirements
+*Fork from github repository: https://github.com/Vector254/akan-names.git
+*Clone the same link to your local repository.
+*work on the files locally via VScode.
 
 ## Link to live page
  (https://Vector254.github.io/akan-names)
