@@ -45,14 +45,14 @@
                  
             
             <div class="col-md-6">
-
+            
                 <div class="form-group">
                 <label for="gender">Gender:</label>
                 <select name="gender" class="form-control" id="gender">
                     <option value="1">Male</option>
                     <option value="2">Female</option>
                 </select>
-                <br><input type="submit" class="form-control" value="SUBMIT" onclick="generateName();clearData();">
+                <br><input type="submit" id="submit" class="form-control" value="SUBMIT" onclick="generateName();clearData();">
                 </div>
                 <form action="index.html" id="output" method="POST">
                 <br><input type="textarea"  id="result" class="result">
