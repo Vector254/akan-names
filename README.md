@@ -7,9 +7,9 @@ This is a web application build using HTML5 and javascript, styling done with bo
 
 
 ## Setup/Installation Requirements
-*Fork from github repository: https://github.com/Vector254/akan-names.git
-*Clone the same link to your local repository.
-*work on the files locally via VScode.
+1. Fork from github repository: https://github.com/Vector254/akan-names.git
+2. Clone the same link to your local repository.
+3. work on the files locally via VScode.
 
 ## Link to live page
  (https://Vector254.github.io/akan-names)
