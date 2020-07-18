@@ -37,3 +37,5 @@ body
         border-radius: 3px;
         text-indent: 1em;
     }
+em 
+    {color: black;}
