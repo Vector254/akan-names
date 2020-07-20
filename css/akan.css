@@ -59,7 +59,7 @@ input:required:valid
         background-repeat: no-repeat;
       }
 
-@media only screen and(orientation:portrait)
+@media only screen and(orientation:portrait),(max-width:450px)
     {
         [class*="col-"]{
         width:100%;}
