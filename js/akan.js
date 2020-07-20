@@ -49,34 +49,35 @@ var exactDay=Day.toFixed();// convert the day calculated into a whole number
 var gender=parseInt(document.getElementById("gender").value);
 
 if (gender=="1"){  //check gender against day of week and display the relevant akan name
-    if (exactDay==="0")
+    else if (exactDay==="0")
         {
             document.getElementById("result").value="Born on Sunday, your akan name is:"+maleNames[0];    
         }
-    if (exactDay==="1")
+    else if (exactDay==="1")
         {
             document.getElementById("result").value="Born on Monday, your akan name is:"+maleNames[1];
         }
-    if (exactDay==="2")
+    else if (exactDay==="2")
         {
             document.getElementById("result").value="Born on Tuesday, your akan name is:"+maleNames[2];
         }
-    if (exactDay==="3")
+    else if (exactDay==="3")
         {
             document.getElementById("result").value="Born on Wednesday, your akan name is:"+maleNames[3];
         }
-    if (exactDay==="4")
+    else if (exactDay==="4")
         {
             document.getElementById("result").value="Born on thursday, your akan name is:"+maleNames[4];
         }
-    if (exactDay==="5")
+    else if (exactDay==="5")
         {
             document.getElementById("result").value="Born on friday, your akan name is:"+maleNames[5];
         }
-    if (exactDay==="6")
+    else if (exactDay==="6")
         {
             document.getElementById("result").value="Born on saturday, your akan name is:"+maleNames[6];
         }
+    else {return false;}
     }
 
 if (gender=="2"){
