@@ -49,7 +49,7 @@ var exactDay=Day.toFixed();// convert the day calculated into a whole number
 var gender=parseInt(document.getElementById("gender").value);
 
 if (gender=="1"){  //check gender against day of week and display the relevant akan name
-    else if (exactDay==="0")
+     if (exactDay==="0")
         {
             document.getElementById("result").value="Born on Sunday, your akan name is:"+maleNames[0];    
         }
