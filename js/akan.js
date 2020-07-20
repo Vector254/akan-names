@@ -14,7 +14,7 @@ function validate (){
             alert("please enter a valid month");
             return false;
         }
-        
+
     else if (month=("4"||"6"||"9"||"11") && day>30)//validate input months with 30 days do not not exceed the 30 days
         {
             alert("This month has 30 days!");
