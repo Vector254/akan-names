@@ -47,3 +47,9 @@ input:valid
       border-width: 2px;
 
     }
+
+@media only screen and(orientation:portrait)
+    {
+        [class*="col-"]{
+        width:100%;}
+    }

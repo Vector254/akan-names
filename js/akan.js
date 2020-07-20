@@ -4,12 +4,12 @@ function validate (){
     var year=parseInt(document.getElementById("year").value);//get relevant input and convert to interger
     var month=parseInt(document.getElementById("month").value);
     var day=parseInt(document.getElementById("day").value);
-    if(year="" || year>today ||year<1900) //validate the year entered against current year and least possible year
+    if(year=="" || year>today ||year<1900) //validate the year entered against current year and least possible year
         {
             alert("please enter a valid year of birth!");
             return false;
         }
-     else if(month="" || month>12 ||month<1)//validate month entered is not less than 1 or more than 12
+     else if(month=="" || month>12 ||month<1)//validate month entered is not less than 1 or more than 12
         {
             alert("please enter a valid month");
             return false;
@@ -25,7 +25,7 @@ function validate (){
             alert("February does not exceed 29 days!")
             return false;
         }
-    else if(day="" || day<1 || day>31)
+    else if(day=="" || day<1 || day>31)
         {
             alert("please enter a valid day");
             return false;
