@@ -4,23 +4,23 @@ function validate (){
     var year=parseInt(document.getElementById("year").value);//get relevant input and convert to interger
     var month=parseInt(document.getElementById("month").value);
     var day=parseInt(document.getElementById("day").value);
-    if(year=="" || year>today ||year<1900) //validate the year entered against current year and least possible year
+    if(year=="" || year>today ||year<1900) 
         {
             alert("please enter a valid year of birth!");
             return false;
         }
-     else if(month=="" || month>12 ||month<1)//validate month entered is not less than 1 or more than 12
+     else if(month=="" || month>12 ||month<1)
         {
             alert("please enter a valid month");
             return false;
         }
 
-    else if (month=("4"||"6"||"9"||"11") && day>30)//validate input months with 30 days do not not exceed the 30 days
+    else if (month=("4"||"6"||"9"||"11") && day>30)
         {
             alert("This month has 30 days!");
             return false;
         }
-    else if (month="2"&& day>29)//validate february does not exceed 28
+    else if (month="2"&& day>29)
         {
             alert("February does not exceed 29 days!")
             return false;
@@ -38,17 +38,17 @@ function generateName(){
     validate();
     
 
-var CC=parseInt( document.getElementById("year").value.slice(0,2));//declare variables and convert them to integers
+var CC=parseInt( document.getElementById("year").value.slice(0,2));
 var YY=parseInt(document.getElementById("year").value.slice(2,4));
 var MM=parseInt(document.getElementById("month").value);
 var DD=parseInt(document.getElementById("day").value);
 var maleNames=["Kwasi","Kwadwo","Kwabena","Kwaku","Yaw","Kofi","Kwame"];
 var femaleNames=["Akosua","Adwoa","Abenaa","Akua","Yaa","Afua","Ama"];
-var Day=(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7)-1; //calculate the day of the week 
-var exactDay=Day.toFixed();// convert the day calculated into a whole number
+var Day=(( ( (CC/4) -2*CC-1) + ((5*YY/4) ) + ((26*(MM+1)/10)) + DD )%7)-1;  
+var exactDay=Day.toFixed();
 var gender=parseInt(document.getElementById("gender").value);
 
-if (gender=="1"){  //check gender against day of week and display the relevant akan name
+if (gender=="1"){ 
      if (exactDay==="0")
         {
             document.getElementById("result").value="Born on Sunday, your akan name is:"+maleNames[0];    
@@ -113,7 +113,7 @@ if (gender=="2"){
 }
 function clearData()
     {
-        document.getElementById("form").reset();//clear form input data
+        document.getElementById("form").reset();
     }
 
 function clearAll()
