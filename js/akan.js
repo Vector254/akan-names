@@ -1,7 +1,7 @@
 function validate (){
     var date=new Date();
-    var today=date.getFullYear();//get the current year to use it later for validation
-    var year=parseInt(document.getElementById("year").value);//get relevant input and convert to interger
+    var today=date.getFullYear();
+    var year=parseInt(document.getElementById("year").value);
     var month=parseInt(document.getElementById("month").value);
     var day=parseInt(document.getElementById("day").value);
     if(year=="" || year>today ||year<1900) 
