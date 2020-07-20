@@ -53,27 +53,27 @@ if (gender=="1"){  //check gender against day of week and display the relevant a
         {
             document.getElementById("result").value="Born on Sunday, your akan name is:"+maleNames[0];    
         }
-    else if (exactDay==="1")
+    if (exactDay==="1")
         {
             document.getElementById("result").value="Born on Monday, your akan name is:"+maleNames[1];
         }
-    else if (exactDay==="2")
+    if (exactDay==="2")
         {
             document.getElementById("result").value="Born on Tuesday, your akan name is:"+maleNames[2];
         }
-    else if (exactDay==="3")
+    if (exactDay==="3")
         {
             document.getElementById("result").value="Born on Wednesday, your akan name is:"+maleNames[3];
         }
-    else if (exactDay==="4")
+    if (exactDay==="4")
         {
             document.getElementById("result").value="Born on thursday, your akan name is:"+maleNames[4];
         }
-    else if (exactDay==="5")
+    if (exactDay==="5")
         {
             document.getElementById("result").value="Born on friday, your akan name is:"+maleNames[5];
         }
-    else
+    if (exactDay==="6")
         {
             document.getElementById("result").value="Born on saturday, your akan name is:"+maleNames[6];
         }
